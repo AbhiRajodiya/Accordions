@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Accordion</title>
+	<style>
+	.hidecontent {
+    	display: none;
+        padding: 10px;
+	}
+	
+	#myaccordion label {
+		box-shadow:0 0 20px #d4d4d4;
+		display: block;    
+		padding: 8px 22px;
+		margin: 20px 0px 1px 0px;
+		cursor: pointer;
+		background: #a86060;
+		color: #FFF;
+		transition: ease .5s;
+	}
+	#myaccordion label:hover {
+		background: #ff5f5f;
+	}
+	.content {
+		box-shadow:0 0 20px #d4d4d4;
+		background: #ffff;
+		padding: 10px 25px;
+		border: 1px solid #d4d4d4;
+		margin: -1 0 0 0;
+	}
+	#myaccordion input:checked + label + .content {
+		display: block;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="myaccordion">
+	<input type="checkbox" id="accordion1" class="hidecontent"/>
+	<label for="accordion1">Accordion One Heading</label>
+	<div class="content hidecontent">
+		<p>Content for first Accordion.</p>
+		<p>Content for first Accordion.</p>
+	</div>
+	<input type="checkbox" id="accordion2" class="hidecontent"/>
+	<label for="accordion2">Accordion Two Heading</label>
+	<div class="content hidecontent">
+		<p>Content for Second Accordion.</p>
+		<p>Content for Second Accordion.</p>
+	</div>
+	<input type="checkbox" id="accordion3" class="hidecontent"/>
+	<label for="accordion3">Accordion Three Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div>
+    <input type="checkbox" id="accordion4" class="hidecontent"/>
+	<label for="accordion4">Accordion four Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div>
+    <input type="checkbox" id="accordion5" class="hidecontent"/>
+	<label for="accordion5">Accordion five Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div>
+    <input type="checkbox" id="accordion6" class="hidecontent"/>
+	<label for="accordion6">Accordion six Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div><input type="checkbox" id="accordion7" class="hidecontent"/>
+	<label for="accordion7">Accordion seven Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div>
+    <input type="checkbox" id="accordion8" class="hidecontent"/>
+	<label for="accordion8">Accordion eight Heading</label>
+	<div class="content hidecontent">
+		<p>Content for third Accordion.</p>
+		<p>Content for third Accordion.</p>
+	</div>
+	</div>
+</body>
+</html>
